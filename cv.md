@@ -22,7 +22,7 @@ I wish to be a full-stack JavaScript developer, but currently I'm discovering fr
 ## Skills:
 
 - HTML
-- SS/SASS
+- CSS/SASS
 - Git
 - JavaScript (Basic)
 - React (Basic)
@@ -30,7 +30,7 @@ I wish to be a full-stack JavaScript developer, but currently I'm discovering fr
 
 ## Education:
 
-- **University:** State University of Management (Logistics and transport management)
+- **University:** State University of Management (Logistics and transport management), 2010
 - **Courses:**
   - [CS50 lectures](https://www.youtube.com/playlist?list=PLawfWYMUziZqyUL5QDLVbe3j5BKWj42E5)
   - codebasics: HTML, CSS, JS, Python
