@@ -1,0 +1,109 @@
+.main-centered {
+  margin: 20px auto;
+  width: 1024px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  line-height: 1.5;
+  background-color: #a8a8a8;
+  box-shadow: 10px 10px 40px -1px rgb(61, 64, 65);
+}
+
+.two-blocks {
+  display: flex;
+}
+
+.left-block {
+  width: 38%;
+  color: white;
+  background-color: #1c1f20;
+  line-height: 1.15;
+  padding: 1rem;
+}
+
+header {
+  padding: 30px;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+}
+
+.right-block {
+  line-height: 1.15;
+  font-family: "Montserrat", sans-serif;
+  font-size: 115%;
+  box-sizing: border-box;
+  padding: 1rem;
+  width: 62%;
+  color: #000000;
+  background-color: #ffffff;
+  display: block;
+}
+
+.section-title {
+  display: block;
+  margin: 10px 0px;
+  padding: 5px 5px 5px 50px;
+  position: relative;
+  color: #0fa5af;
+  font-size: 25px;
+  border-top: 2px solid #0fa5af;
+  border-bottom: 2px solid #0fa5af;
+}
+.section-title::before {
+  content: "";
+  background-color: #0fa5af;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 40px;
+  height: 40px;
+}
+
+.contacts__item a {
+  display: block;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.page-body a {
+  color: white;
+}
+
+li {
+  list-style: none;
+  line-height: 1.25;
+}
+
+.education a {
+  display: block;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.code-example {
+  background: rgb(231, 230, 230);
+  color: #000000;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  font-size: 0.8rem;
+  color: #ffffff;
+  background-color: #242a2c;
+  clear: both;
+}
+footer .github-icon {
+  margin-right: 10px;
+}
+
+.footer-github {
+  display: flex;
+  align-items: center;
+}
+
+.footer a {
+  color: #ffffff;
+  text-decoration: none;
+}
