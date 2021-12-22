@@ -1,13 +1,113 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=
-    , initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Olga Simankova CV</title>
+  <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    
+  <div class="main-centered">
+    <div class="two-blocks">
+      <aside class="left-block">
+        <header>
+          <img class="portrait" src="./img/Portrait.jpg" alt="Portrait" width="254" height="254">
+          <h1>OLGA SIMANKOVA</h1>
+          <h2>Junior Frontend Developer</h2>
+        </header>
+      <section class="contacts" id="contacts">
+        <h3 class="section-title">CONTACTS</h3>
+        <ul class="contacts__list">
+          <li class="contacts__item">
+            Phone:<br>
+            +7 (916) 988 82 98
+          </li>
+          <li class="contacts__item">
+            Email:<br>
+            <a href="mailto:o.kotlyarova@gmail.com">o.kotlyarova@gmail.com</a>
+          </li>
+          <li class="contact__item">
+            Location:<br>
+            <span>Moscow, Russia</span>
+          </li>
+        </ul>
+      </section>
+      <section class="skills">
+        <h3 class="section-title">SKILLS</h3>
+        <ul>
+          <li>HTML</li>
+          <li>CSS/SASS</li>
+          <li>Git</li>
+          <li>JavaScript (Basic)</li>
+          <li>React (Basic)</li>
+          <li>Photoshop, Lightroom</li>
+        </ul>
+      </section>
+      <section class="education">
+        <h3 class="section-title">EDUCATION</h3>
+        <h4>Courses:</h4>
+        <ul>
+          <li><a href="https://www.youtube.com/playlist?list=PLawfWYMUziZqyUL5QDLVbe3j5BKWj42E5">CS50 lectures</a></li>
+          <li>codebasics: HTML, CSS, JS, Python</li>
+          <li>Hexlet: JS, React</li>
+          <li><a href="https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/">Freecodecamp</a></li>
+          <li>RS School «JavaScript/Front-end. Stage 0»</li>
+        </ul>
+        <h4>University:</h4>
+        <p><b>State University of Management:</b><br>Logistics and transport management, 2010</p>
+      </section>
+      <section class="languages">
+        <h3 class="section-title">LANGUAGES</h3>
+        <ul>
+          <li><b>Russian</b><br>native</li>
+          <li><b>English</b><br>B2 + Business English</li>
+        </ul>
+      </section>
+    </aside>
+    <main class="right-block">
+      <section class="about-me">
+        <h3 class="section-title">ABOUT ME</h3>          
+        <article>
+          I used to work as a stock photographer for the last 6 years but this work became too monotonous for me, there was nothing new to learn. So I got back to square one and analyzed what I've been interested in at school and University. <br>I highly appreciate activities where I can develop during my life. That's how I began studying programming. It seems to me as an exiting and creative way to solve analytical problems.
+          I wish to be a full-stack JavaScript developer, but currently I'm discovering frontend first.</article><br>
+          <h4>My strengths:</h4>
+        <ul><li>Quick learner</li>
+          <li>Diligence</li>
+          <li>Responsibility</li>
+          <li>Team playing</li>
+        </ul>    
+      </section>
+      <section>
+        <h3 class="section-title">CODE EXAMPLE</h3>
+        <article><b>Element equals its index</b><br>Given a sorted array of distinct integers, write a function indexEqualsValue that returns the lowest index for which array[index] == index.
+          Return -1 if there is no such index.<br>
+          Your algorithm should be very performant.</article>
+          <pre class="code-example">
+              <code>
+  function indexEqualsValue(arr) {
+    let first = 0;
+    let last  = arr.length - 1
+    while (first < last) {
+      let mid = Math.floor((first+last)/2)
+      if (mid <= arr[mid]) last = mid
+      else first = mid + 1
+    }
+    return arr[last] == last ? last : -1
+  }
+              </code>
+          </pre>
+      </section>
+    </main>
+</div>
+  <footer class="footer">
+    <a class="footer-github" href="https://github.com/olgaSimankova">
+      <img class="github-icon" src="./img/github-icon.svg" alt="Github Icon" width="26" height="26">
+      <p>Visit my GitHub</p>
+    </a>
+      <p class="footer-year">2021</p>
+      <a class="footer-rsschool" href="https://rs.school/js/" target="_blank">
+        <img src="img/rs_school_js.svg" width="86" height="32" alt="RS School"></a>
+  </footer>
+</div>
 </body>
 </html>
