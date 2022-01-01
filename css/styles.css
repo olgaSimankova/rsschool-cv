@@ -8,6 +8,10 @@
   box-shadow: 10px 10px 40px -1px rgb(61, 64, 65);
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .two-blocks {
   display: flex;
 }

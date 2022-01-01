@@ -11,7 +11,7 @@
     <div class="two-blocks">
       <aside class="left-block">
         <header>
-          <img class="portrait" src="./img/Portrait.jpg" alt="Portrait" width="254" height="254">
+          <img class="portrait" src="./img/Portrait.jpg" alt="Portrait" width="260" height="260">
           <h1>OLGA SIMANKOVA</h1>
           <h2>Junior Frontend Developer</h2>
         </header>
@@ -69,27 +69,30 @@
         <h3 class="section-title">ABOUT ME</h3>          
         <article>
           I used to work as a stock photographer for the last 6 years but this work became too monotonous for me, there was nothing new to learn. So I got back to square one and analyzed what I've been interested in at school and University. <br>I highly appreciate activities where I can develop during my life. That's how I began studying programming. It seems to me as an exiting and creative way to solve analytical problems.
-          I wish to be a full-stack JavaScript developer, but currently I'm discovering frontend first.</article><br>
+          I wish to be a full-stack JavaScript developer, but currently I'm discovering frontend first.<br>
           <h4>My strengths:</h4>
         <ul><li>Quick learner</li>
           <li>Diligence</li>
           <li>Responsibility</li>
           <li>Team playing</li>
-        </ul>    
+        </ul> 
+      </article>   
       </section>
       <section>
         <h3 class="section-title">CODE EXAMPLE</h3>
-        <article><b>Element equals its index</b><br>Given a sorted array of distinct integers, write a function indexEqualsValue that returns the lowest index for which array[index] == index.
+        <article>
+        <h4>Element equals its index</h4><br>Given a sorted array of distinct integers, write a function indexEqualsValue that returns the lowest index for which array[index] == index.
           Return -1 if there is no such index.<br>
-          Your algorithm should be very performant.</article>
+          Your algorithm should be very performant.
+          So, we'll need to use binary search here:</article>
           <pre class="code-example">
               <code>
   function indexEqualsValue(arr) {
     let first = 0;
     let last  = arr.length - 1
-    while (first < last) {
+    while (first &lt; last) {
       let mid = Math.floor((first+last)/2)
-      if (mid <= arr[mid]) last = mid
+      if (mid &lt;= arr[mid]) last = mid
       else first = mid + 1
     }
     return arr[last] == last ? last : -1
