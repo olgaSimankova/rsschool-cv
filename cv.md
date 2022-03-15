@@ -36,6 +36,7 @@ I wish to be a full-stack JavaScript developer, but currently I'm discovering fr
   - codebasics: HTML, CSS, JS, Python
   - Hexlet: JS, React
   - [Freecodecamp](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/)
+  - [RS School JS/FE Pre-School 2022] (https://app.rs.school/certificate/32u7ubh9)
 
 ## Code example:
 
